@@ -19,6 +19,9 @@ figure {
 	margin: 10px;
 	border-radius: 100%;
 	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
 }
 .back-side, .front-side {
 	width: 100%;
@@ -36,6 +39,9 @@ figure {
 	-moz-transition: -moz-transform 1s ease-in-out;
 	-o-transition: -o-transform 1s ease-in-out;
 	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
 	z-index: 10;
 }
 
